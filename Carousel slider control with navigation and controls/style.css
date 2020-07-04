@@ -12,7 +12,8 @@
 .slider {
 	display: flex;
 	height: 100%;
-	width: 400%;
+	/*increase with (number_of_slide * 100%) */
+	width: 1000%;
 	border: 1px solid red;
 	transition: all 0.5s;
 	/*transform: translate(-25%);*/
