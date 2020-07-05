@@ -6,6 +6,8 @@ let carouselWidth = document.querySelector('.carousel-container').offsetWidth;
 let index = 0;
 let sumOfRight = 0;
 let sumOfLeft = 0;
+
+
 window.addEventListener('resize', () => {
    carouselWidth = document.querySelector('.carousel-container').offsetWidth;
 });
@@ -13,7 +15,7 @@ window.addEventListener('resize', () => {
 right.addEventListener('click', function () {
     index++;
     left.classList.add('show');
-    sumOfRight += carouselWidth;
+    sumOfRight = sumOfRight + carouselWidth;
 
     if ((sumOfRight + carouselWidth) < track.offsetWidth) {
         track.style.transform = track.style.transform + `translate(-${carouselWidth}px)`;
@@ -28,9 +30,6 @@ right.addEventListener('click', function () {
 
 left.addEventListener('click', function () {
     sumOfLeft = sumOfRight - carouselWidth;
-    // console.log(track.offsetWidth);
-    console.log(sumOfLeft);
-    console.log(carouselWidth);
 
     if (sumOfLeft >= carouselWidth) {
         track.style.transform = track.style.transform + `translate(${carouselWidth}px)`;
