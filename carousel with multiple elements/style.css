@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+.carousel-container {
+    width: 1000px; /*use media query*/
+    margin: 10px auto;
+    min-height: 200px;
+    position: relative;
+    direction: ltr;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {.carousel-container {
+        width: 80%;
+    }}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {.carousel-container {
+        width: 80%;
+    }}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {.carousel-container {
+        width: 80%;
+    }}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {.carousel-container {
+        width: 85%;
+    }}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {.carousel-container {
+        width: 85%;
+    }}
+
+.carousel-container .track {
+    display: inline-flex;
+    transition: transform 1.2s;
+}
+.carousel-container .card-container {
+    width: 254px;
+    height: 250px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    /*border: 1px solid orange;*/
+    flex-shrink: 0;
+    direction: rtl;
+}
+.carousel-container .card-container .card {
+    height: 100%;
+    width: 100%;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.carousel-container .carousel-inner {
+    overflow: hidden;
+}
+.nav .arrow {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #aaaaaa;
+    padding: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.nav button{
+    background: rgba(222,222,222,0.6);
+}
+.nav button:hover{
+    background: rgba(222,222,222,0.2);
+}
+.nav .right {
+    right: -30px;
+}
+
+.nav .left {
+    left: -30px;
+    display: none;
+}
+.nav .right.hide {
+    display: none;
+}
+
+.nav .right.show {
+    display: block;
+}
+.nav .left.show {
+    display: block;
+}
+.card > * {
+    flex: 0;
+}
+.card .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    flex-grow: 1;
+}
+.card img {
+    width: 100%;
+    min-height: 150px;
+    max-height: 150px;
+}
+.card .info {
+    flex-basis: 40px;
+    flex-grow: 0;
+    background: #333333;
+    color: #ffffff;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: justify;
+}
