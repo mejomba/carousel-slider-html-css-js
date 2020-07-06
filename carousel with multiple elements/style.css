@@ -67,12 +67,7 @@
     transform: translateY(-50%);
     cursor: pointer;
 }
-/*.nav button{*/
-/*    background: rgba(222,222,222,0.6);*/
-/*}*/
-/*.nav button:hover{*/
-/*    background: rgba(222,222,222,0.2);*/
-/*}*/
+
 .nav div{
     background: rgba(222,222,222,0.6);
 }
