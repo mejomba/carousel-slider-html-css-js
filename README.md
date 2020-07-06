@@ -1,12 +1,12 @@
-#most popular slider's in web design simple and useful
-#####in a few years ago I only copy and paste other code's for using slider in my design but this is don't work correctly because always other code's contain additional code, so conflict with my design now I can design slider and this repository contain most popular sliders in web design without any extra code or html tag.
-####you can only `copy & paste` code to your favorite location on you'r design or website
-###in the following I'm describe how to use every of this sliders
+# most popular slider's in web design simple and useful
+##### in a few years ago I only copy and paste other code's for using slider in my design but this is don't work correctly because always other code's contain additional code, so conflict with my design now I can design slider and this repository contain most popular sliders in web design without any extra code or html tag.
+#### you can only `copy & paste` code to your favorite location on you'r design or website
+### in the following I'm describe how to use every of this sliders
 
-##all of this sliders contain 3 files `index.html` `style.css` `js.js`.
+## all of this sliders contain 3 files `index.html` `style.css` `js.js`.
 
-#Carousel slider control with navigation and controls.
-####only `copy & paste` to your project.
+# Carousel slider control with navigation and controls.
+#### only `copy & paste` to your project.
 
 in `index.html` file, and in the each `<section></section>` you must Insert one of slide content. remove extra section or add, if you want more and `<li></li>` tags should be repeat to number of slides.
 
@@ -14,11 +14,11 @@ in `js.js` and in line `7` you must Specified `numberOfSlide` variable.
 
 in `style.css` and in line `15` value of `width` for class `.slider` must be `numberOfSlide * 100%`
 
-####this 3 step required for working slider correctly.
+#### this 3 step required for working slider correctly.
 you can change or add new css style for change looks and fill.
 
-#Carousel with fade effect:
-####only `copy & paste` to your project.
+# Carousel with fade effect:
+#### only `copy & paste` to your project.
 
 in `index.html` file, and in the each `<section></section>` you must Insert one of slide content. remove extra section or add, if you want more.
 
@@ -27,8 +27,8 @@ in `js.js` and in line `1` you must Specified `numberOfSlides` variable.
 you can change or add new css style for change looks and fill.
 
 
-#Carousel with multiple elements:
-####only `copy & paste` to your project.
+# Carousel with multiple elements:
+#### only `copy & paste` to your project.
 
 your slider content must be in:
 ```html
@@ -39,13 +39,13 @@ your slider content must be in:
      </div>
 </div>
 ```
-####remove extra section or add, if you want more slide.
+#### remove extra section or add, if you want more slide.
 
 you can change or add new `css style` for change looks and fill.
 
-#full feature slider optimized for mobile and desktop with touch event and navigation button:
+# full feature slider optimized for mobile and desktop with touch event and navigation button:
 
-####only `copy & paste` to your project.
+#### only `copy & paste` to your project.
 in `index.html` file, and in the
 ```html
 <div class="track">
@@ -65,8 +65,8 @@ you can Insert slider content. remove extra `div` or add, if you want more.
 
 you can change or add new `css style` for change looks and fill.
 
-#infinity loop carousel slider:
-####only `copy & paste` to your project.
+# infinity loop carousel slider:
+#### only `copy & paste` to your project.
 in `index.html` file, and in the
 
 ```html
@@ -85,9 +85,9 @@ in `style.css` and in line `60` value of `width` for class `.slider` must be `sl
 
 you can change or add new `css style` for change looks and fill.
 
-#Mobile friendly carousel with touch and pointer events:
+# Mobile friendly carousel with touch and pointer events:
 
-####only `copy & paste` to your project.
+#### only `copy & paste` to your project.
 
 in `index.html` file, and in the
 ```html
@@ -108,8 +108,8 @@ you can Insert slider content. remove extra `div` or add, if you want more.
 
 you can change or add new `css style` for change looks and fill.
 
-#slider with slide-show:
-####only `copy & paste` to your project.
+# slider with slide-show:
+#### only `copy & paste` to your project.
 
 in `index.html` file, and in the
 ```html
@@ -126,8 +126,8 @@ in `js.js` and in line `1` you must Specified `numberOfSlides` variable.
 
 you can change or add new `css style` for change looks and fill.
 
-#slider with mouse move event:
-####only `copy & paste` to your project.
+# slider with mouse move event:
+#### only `copy & paste` to your project.
 this slider contain `mouse move` event "dont work on touch screen"
 
 in `index.html` file, and in the
