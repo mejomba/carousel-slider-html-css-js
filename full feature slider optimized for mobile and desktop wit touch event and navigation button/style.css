@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+.baba {
+    position: relative;
+    direction: ltr;
+}
+.baba .carousel {
+    width: 1000px;
+    height: 300px;
+    margin: 5px auto;
+    /*background: #e2ffed;*/
+    border: 1px solid salmon;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {.baba .carousel  {
+        width: 80%;
+    }}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {.baba .carousel{
+        width: 80%;
+    }}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {.baba .carousel{
+        width: 80%;
+    }}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {.baba .carousel{
+        width: 85%;
+    }}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {.baba .carousel{
+        width: 85%;
+    }}
+
+.carousel .track {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-flex;
+    touch-action: none;
+    height: 100%;
+
+}
+.smooth-transition {
+    transition: all 1s;
+}
+.carousel .track .card {
+    width: 300px;
+    height: 100%;
+    background: #cccccc;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.nav .arrow {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #aaaaaa;
+    padding: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.nav div{
+    background: rgba(222,222,222,0.6);
+}
+.nav div:hover{
+    background: rgba(222,222,222,0.2);
+}
+.nav div span{
+    font-size: 2em;
+    color: red;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav .right {
+    right: 0;
+}
+
+.nav .left {
+    left: 0;
+    /*display: none;*/
+    pointer-events: none;
+}
+.nav .right.hide {
+    display: none;
+}
+.nav .right.lock {
+    pointer-events: none;
+}
+
+
+.nav .right.show {
+    display: block;
+}
+.nav .left.show {
+    pointer-events: auto;
+}
