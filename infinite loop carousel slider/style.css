@@ -2,7 +2,7 @@
 .baba {
     width: 80%;
     margin: 20px auto;
-    height: 250px;
+    height: 300px;
 }
 .carousel {
     width: 100%;
@@ -46,7 +46,6 @@
 }
 .arrow.left:hover {
     left: 0;
-    /*background: red;*/
     padding: 20px 20px;
     transform: translateY(-50%);
     border: 1px solid #bbbbbb;
@@ -57,8 +56,8 @@
 .slider {
     display: flex;
     height: 100%;
-    /*increase with (slide-number * 100) */
-    width: 800%;
+    /*increase with (slidenumber * 100) */
+    width: 400%;
     flex-shrink: 0;
     transition: all 0.5s;
 }

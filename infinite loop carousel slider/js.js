@@ -3,7 +3,7 @@ const carousel = document.querySelector('.carousel');
 const right = document.querySelector('.right');
 const left = document.querySelector('.left');
 var jahat;
-let slideNumber = 8;
+let slideNumber = 4;
 
 left.addEventListener('click', function () {
     if (jahat === -1) {
