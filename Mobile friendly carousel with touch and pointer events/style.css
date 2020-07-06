@@ -1,0 +1,52 @@
+
+.baba .carousel {
+    width: 1000px;
+    height: 300px;
+    margin: 5px auto;
+    /*background: #e2ffed;*/
+    border: 1px solid salmon;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {.baba .carousel  {
+        width: 80%;
+    }}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {.baba .carousel{
+        width: 80%;
+    }}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {.baba .carousel{
+        width: 80%;
+    }}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {.baba .carousel{
+        width: 85%;
+    }}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {.baba .carousel{
+        width: 85%;
+    }}
+
+.carousel .track {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-flex;
+    touch-action: none;
+    height: 100%;
+
+}
+.carousel .track .card {
+    width: 300px;
+    height: 100%;
+    background: #cccccc;
+    border-radius: 5px;
+    margin-right: 20px;
+}
