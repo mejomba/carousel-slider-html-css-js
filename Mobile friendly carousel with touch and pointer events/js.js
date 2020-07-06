@@ -3,7 +3,6 @@ const carousel = document.querySelector('.carousel');
 let initialPosition = null;
 let moving = false;
 let transform = 0;
-// let mouseLastPosition = 0;
 let lastPageX = 0;
 let transformValue = 0;
 
