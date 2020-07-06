@@ -1,0 +1,54 @@
+.mobile-slider {
+    width: 1000px;
+    height: 300px;
+    /*background: #cccccc;*/
+    margin: 5px auto;
+    border-radius: 5px;
+    position: relative;
+    border: 1px solid #aaaaaa;
+    overflow: hidden;
+
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {.mobile-slider {
+        width: 80%;
+    }}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {.mobile-slider {
+        width: 80%;
+    }}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {.mobile-slider {
+        width: 80%;
+    }}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {.mobile-slider {
+        width: 85%;
+    }}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {.mobile-slider {
+        width: 85%;
+    }}
+
+
+.card-container {
+    position: absolute;
+    /*top: 5px;*/
+    /*left: 5px;*/
+    display: flex;
+    height: 100%;
+}
+.card-inner {
+    width: 200px;
+    height: 100%;
+    margin-right: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #dddddd;
+}
