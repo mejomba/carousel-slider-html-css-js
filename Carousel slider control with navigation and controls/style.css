@@ -12,12 +12,9 @@
 .slider {
 	display: flex;
 	height: 100%;
-	/*increase with (number_of_slide * 100%) */
 	width: 1000%;
 	border: 1px solid red;
-	transition: all 0.5s;
-	/*transform: translate(-25%);*/
-
+	transition: all 0.7s;
 }
 .slider section {
 	flex-basis: 100%;
@@ -34,14 +31,12 @@
 .arrow.left {
 	left:10px;
 	padding:80px 20px;
-	/*background-color: red;*/
-	font-size: 50px;
+	font-size: 70px;
 }
 .arrow.right {
 	right:10px;
 	padding:80px 20px;
-	/*background-color: red;*/
-	font-size: 50px;
+	font-size: 70px;
 }
 
 .slider-controls ul {
