@@ -1,5 +1,5 @@
 # most popular slider's in web design simple and useful
-##### in a few years ago I only copy and paste other code's for using slider in my design but this is don't work correctly because always other code's contain additional code, so conflict with my design now I can design slider and this repository contain most popular sliders in web design without any extra code or html tag.
+in a few years ago I only copy and paste other code's for using slider in my design but this is don't work correctly because always other code's contain additional code, so conflict with my design now I can design slider and this repository contain most popular sliders in web design without any extra code or html tag.
 #### you can only `copy & paste` code to your favorite location on you'r design or website
 ### in the following I'm describe how to use every of this sliders
 
